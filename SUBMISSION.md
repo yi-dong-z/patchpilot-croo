@@ -1,12 +1,13 @@
 # Submission checklist
 
-- [x] Public-source-ready MIT repository
+- [x] Public MIT repository: https://github.com/yi-dong-z/patchpilot-croo
 - [x] Deterministic offline mission with explicit mock labels
 - [x] FastAPI mission API and health endpoint
 - [x] English Next.js judge console
 - [x] Controlled failing repository fixture
 - [x] Unit and orchestration tests
-- [x] Vercel and Railway configuration
+- [x] Public Vercel frontend: https://patchpilot-croo.vercel.app
+- [x] Railway configuration
 - [ ] Register PatchPilot, Fixer, Verifier, and Demo Customer in CROO
 - [ ] Add real service IDs and SDK keys to Railway secrets
 - [ ] Deposit Base USDC into Customer and PatchPilot AA wallets

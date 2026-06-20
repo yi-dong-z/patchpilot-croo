@@ -13,7 +13,7 @@ export default async function Home() {
         <a href="#top" className="flex items-center gap-2 font-semibold"><Wrench className="size-5 text-[#c55227]" weight="fill" aria-hidden="true" />PatchPilot</a>
         <div className="flex items-center gap-5 text-sm">
           <a href="#proof" className="hidden text-[#67645e] hover:text-[#191917] sm:block">Proof</a>
-          <a href="https://github.com" aria-label="View PatchPilot on GitHub" className="active:translate-y-px"><GithubLogo className="size-5" aria-hidden="true" /></a>
+          <a href="https://github.com/yi-dong-z/patchpilot-croo" aria-label="View PatchPilot on GitHub" className="active:translate-y-px"><GithubLogo className="size-5" aria-hidden="true" /></a>
         </div>
       </nav>
 
