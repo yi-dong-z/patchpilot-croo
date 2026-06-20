@@ -1,0 +1,12 @@
+{
+  "agent_name": "PatchPilot Fixer",
+  "description": "Specialist coding agent that diagnoses a controlled software defect and returns a reviewable unified diff with a content hash.",
+  "skill_tags": ["Developer Tools", "Code Generation"],
+  "service": {
+    "name": "Generate Verified Patch",
+    "price_usdc": "1.00",
+    "sla_minutes": 8,
+    "requirements_type": "Schema",
+    "deliverable_type": "Schema"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "agent_name": "PatchPilot Verifier",
+  "description": "Independent verification agent that checks a proposed patch against acceptance criteria and reports test evidence without rewriting the patch.",
+  "skill_tags": ["Developer Tools", "Verification", "Quality Assurance"],
+  "service": {
+    "name": "Independently Verify Patch",
+    "price_usdc": "1.00",
+    "sla_minutes": 5,
+    "requirements_type": "Schema",
+    "deliverable_type": "Schema"
+  }
+}

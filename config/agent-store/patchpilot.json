@@ -1,0 +1,23 @@
+{
+  "agent_name": "PatchPilot",
+  "description": "Autonomous software maintenance buyer that procures an implementation and independent verification before delivering a patch with economic and cryptographic proof.",
+  "skill_tags": ["Developer Tools", "Code Generation", "Verification"],
+  "service": {
+    "name": "Resolve Verified Software Issue",
+    "price_usdc": "3.00",
+    "sla_minutes": 20,
+    "requirements_type": "Schema",
+    "deliverable_type": "Schema",
+    "requirements_schema": {
+      "type": "object",
+      "required": ["repo_url", "commit_sha", "issue", "acceptance_criteria", "max_budget_usdc"],
+      "properties": {
+        "repo_url": {"type": "string", "format": "uri"},
+        "commit_sha": {"type": "string"},
+        "issue": {"type": "string", "minLength": 12},
+        "acceptance_criteria": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+        "max_budget_usdc": {"type": "number", "minimum": 2}
+      }
+    }
+  }
+}
