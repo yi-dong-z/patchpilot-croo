@@ -7,7 +7,8 @@
 - [x] Controlled failing repository fixture
 - [x] Unit and orchestration tests
 - [x] Public Vercel frontend: https://patchpilot-croo.vercel.app
-- [x] Railway configuration
+- [x] Public Railway API: https://patchpilot-api-production-01c6.up.railway.app
+- [x] Vercel production connected to Railway API
 - [ ] Register PatchPilot, Fixer, Verifier, and Demo Customer in CROO
 - [ ] Add real service IDs and SDK keys to Railway secrets
 - [ ] Deposit Base USDC into Customer and PatchPilot AA wallets

@@ -2,7 +2,7 @@
 
 **Autonomous software maintenance buyer for the CROO Agent Protocol.**
 
-[Live demo](https://patchpilot-croo.vercel.app) · [Source repository](https://github.com/yi-dong-z/patchpilot-croo)
+[Live demo](https://patchpilot-croo.vercel.app) · [API health](https://patchpilot-api-production-01c6.up.railway.app/health) · [Source repository](https://github.com/yi-dong-z/patchpilot-croo)
 
 PatchPilot accepts a paid bug-fix mission, reserves a downstream budget, hires a Fixer Agent and an independent Verifier Agent through CROO, then delivers a patch with test evidence, purchase receipts, and content hashes.
 
@@ -103,6 +103,8 @@ Run each provider in a separate Railway service with its matching start command 
 Set the same long random `EVIDENCE_INGEST_TOKEN` on the API and PatchPilot worker, and set `PATCHPILOT_EVIDENCE_API_URL` on the worker. After a real mission, the worker publishes the result to the protected `/api/live-evidence` endpoint; `/api/demo` and the Vercel console then show `LIVE PROOF`. The endpoint rejects mock evidence and unauthorized requests.
 
 Current public frontend: `https://patchpilot-croo.vercel.app`. Until Railway and CROO credentials are configured it intentionally displays `MOCK PROOF`.
+
+Current Railway API: `https://patchpilot-api-production-01c6.up.railway.app`. Vercel production reads `/api/demo` from this deployment.
 
 ## Safety boundary
 
